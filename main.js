@@ -11,7 +11,7 @@ bot.command('start', (ctx) => {
   ctx.reply(
     'Добро пожаловать! Нажмите на кнопку Магазин, чтобы запустить приложение. Нажмите на кнопку Обратная связь, чтобы связаться с нами',
     Markup.inlineKeyboard([
-      Markup.button.webApp('Обратная связь', webAppUrl + '/feedback'),
+      Markup.button.webApp('Обратная связь', 'https://t.me/@TimelabsSupportBot'),
     ]),    
   );
 });
